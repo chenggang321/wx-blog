@@ -1,0 +1,22 @@
+{
+  "name": "wx-blog",
+  "version": "1.0.0",
+  "description": "博客微信小程序",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenggang321/wx-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenggang321/wx-blog/issues"
+  },
+  "homepage": "https://github.com/chenggang321/wx-blog#readme",
+  "dependencies": {
+
+  }
+}
