@@ -1,0 +1,38 @@
+<view class="page" xmlns:wx="http://www.w3.org/1999/xhtml">
+    <view class="page__bd">
+        <view class="weui-cells">
+            <view class="weui-cell ">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">账号</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入账号" bindinput="username"/>
+                </view>
+            </view>
+
+            <view class="weui-cell ">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">邮箱</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入邮箱" bindinput="email"/>
+                </view>
+            </view>
+          
+            <view class="weui-cell">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">密码</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" type="password" placeholder="请输入密码" bindinput="password"/>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-btn-area">
+            <button class="weui-btn" type="primary" bindtap="showTopTips" bindtap="login">确定</button>
+            <button class="weui-btn" type="primary" bindtap="showTopTips" bindtap="register">注册</button>
+        </view>
+    </view>
+</view>
+

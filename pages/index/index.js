@@ -16,6 +16,18 @@ Page({
     })
   },
   onLoad: function () {
+    wx.request({
+      method: 'get',
+      url: 'https://totrip.xin/api/getArticleList',
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success(res) {
+        console.log(res.data);
+        if (res.data.code === 200) {
+        }
+      }
+    })
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
